@@ -1,0 +1,5 @@
+- hosts: linux
+  tasks:
+    - name: Execute the uname command
+      shell: uname -a
+  
